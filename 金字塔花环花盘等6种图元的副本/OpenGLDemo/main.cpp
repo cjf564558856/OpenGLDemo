@@ -260,7 +260,6 @@ void DrawWireFramedBatch(GLBatch* pBatch)
     /*-----------边框部分-------------------*/
     /*
         glEnable(GLenum mode); 用于启用各种功能。功能由参数决定
-        参数列表：http://blog.csdn.net/augusdi/article/details/23747081
         注意：glEnable() 不能写在glBegin() 和 glEnd()中间
         GL_POLYGON_OFFSET_LINE  根据函数glPolygonOffset的设置，启用线的深度偏移
         GL_LINE_SMOOTH          执行后，过虑线点的锯齿
