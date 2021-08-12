@@ -452,6 +452,7 @@ void KeyPressFunc(unsigned char key, int x, int y)
 void ChangeSize(int w, int h)
 {
     glViewport(0, 0, w, h);
+    
     //创建投影矩阵，并将它载入投影矩阵堆栈中
     viewFrustum.SetPerspective(35.0f, float(w) / float(h), 1.0f, 500.0f);
     
